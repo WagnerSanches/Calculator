@@ -7,9 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
+<script>
+var num = 1;
+function somar() {
+    document.querySelector("#num").textContent = num++;
+}
+
+</script>
 <body>
     <div class="tela">
         <h1>Bem vindo!</h1>
+        <p id="num"></p>
+    <button onclick="somar()">aperte</button>
+
     </div>
 </body>
 </html>
