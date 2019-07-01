@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+.tela {
+    display: flex;
+    height: 100vh;
+    background: lightblue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
