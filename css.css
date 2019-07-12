@@ -1,0 +1,113 @@
+
+* {
+    user-select: none;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: lightblue;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+#calculadora {
+    width: 270px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 1);
+}
+
+
+#tela {
+    background-color: #e8e8e8;
+    padding: 7px;
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    text-align: right;
+
+}
+#tela_conta {
+    width: 100vh;
+    height: 80px;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+#conta {
+    margin: 0px;
+    font-size: 30px;
+}
+#resultado {
+    padding: 0px;
+    margin: 0px;    
+    font-size: 30px;
+    height: 40px;
+    user-select: text;
+}
+
+
+#tela_teclas {
+    width: 100%;
+    height: 250px;
+    background: white;
+}
+#teclas {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+#teclas tr td {
+    width: 25px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
+#teclas tr td:hover {
+    background: gray;
+    color: white;
+}
+
+.btn {
+    border: 0px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.apagar {
+    background: #f22e3e;
+}
+.apagar:hover {
+    background: #991c26;
+}
+
+.fazer {
+    background: #21ad26;
+}
+.fazer:hover {
+    background: #035200;
+}
+
+.borda {
+    background: #002182;
+    width: 100%;
+    height: 20px;
+}
+.topo {
+    border-radius: 15px 15px 0 0;
+}
+.footer {
+    border-radius: 0 0 15px 15px;
+}

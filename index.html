@@ -1,25 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css.css">
 </head>
-<script>
-var num = 1;
-function somar() {
-    document.querySelector("#num").textContent = num++;
-}
-
-</script>
 <body>
-    <div class="tela">
-        <h1>Bem vindo, Usuario!</h1>
-        <p id="num"></p>
-    <button onclick="somar()">aperte</button>
+    
+    <div id="calculadora">
+
+        <div class="borda topo"></div>
+
+        <div id="painel">
+
+            <div id="tela">
+                <div id="tela_conta">
+                    <p id="conta"></p>
+                </div>
+                <p id="resultado"></p>
+            </div>
+
+            <div id="tela_teclas">
+                <table id="teclas">
+                    <tr>
+                        <td id="num">1</td>
+                        <td id="num">2</td>
+                        <td id="num">3</td>
+                        <td id="operd">+</td>
+                    </tr>
+                    <tr>
+                        <td id="num">4</td>
+                        <td id="num">5</td>
+                        <td id="num">6</td>
+                        <td id="operd">-</td>
+                    </tr>
+                    <tr>
+                        <td id="num">7</td>
+                        <td id="num">8</td>
+                        <td id="num">9</td>
+                        <td id="operd">*</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="num">0</td>
+                        <td id="virgula">,</td>
+                        <td id="operd">/</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="btn apagar" id="apagar">Apagar</button></td>
+                        <td colspan="2"><button class="btn fazer" id="fazer">=</button></td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="borda footer"></div>
 
     </div>
+
 </body>
+<script src="conta.js"></script>
 </html>
