@@ -74,6 +74,10 @@ body {
     background: gray;
     color: white;
 }
+#teclas tr td:active {
+    background: red;
+    color: white;
+}
 
 .btn {
     border: 0px;
