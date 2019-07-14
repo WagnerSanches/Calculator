@@ -70,10 +70,7 @@ body {
     margin: 0px;
     font-weight: bolder;
 }
-#teclas tr td:hover {
-    background: gray;
-    color: white;
-}
+
 #teclas tr td:active {
     background: red;
     color: white;
